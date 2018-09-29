@@ -1,4 +1,4 @@
-#DATATYPES
+#DATATYPES  
 This section will help ypu familiarize with the various datatypes python provides the user with such as:
 <ul>  
 <li><a href="https://github.com/ACM-VIT/PyFlask_2k18/blob/master/datatypes/dict.md">Dictionary</a></li>  
