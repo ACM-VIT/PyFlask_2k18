@@ -42,10 +42,13 @@ In dictionary, a value is retrieved by specifying its corresponding key in squar
 
 `d[<key>]`
 
+Alternatively, we can also use `d.get(<key>)`
+
 #### Updating an entry
 To update an entry, just assign a new value to the existing key, i.e.
 `d[<key>] = <new_value>`
-Of course, we can even create new entry in this fashion, i.e.,
+
+We can even create new entry in this fashion, i.e.,
 `d[<new_key>] = <new_value>`
 
 #### Deleting an entry
@@ -76,3 +79,9 @@ As with strings and lists, there are several built-in methods that can be invoke
 `Merges a dictionary with another dictionary or with an iterable of key-value pairs`
 
 Please refer `/datatypes/examples/dict.py` for more examples.
+
+For more details and information, please external links and tutorials:
+Basics: http://www.tutorialspoint.com/python/python_dictionary.htm
+
+Along with hands on tutorial: https://www.w3schools.com/python/python_dictionaries.asp
+
