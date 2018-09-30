@@ -16,7 +16,7 @@ print(Laptops)
 ```
 ## Accessing Tuples
 
-Accessing tuples is quite easy .We just need to make use of the index number of the item 
+Accessing tuples is quite easy .We just need to make use of the index number of the item
 
 For example:-
 ```python
@@ -29,7 +29,7 @@ print(ACM_WEB[0])
 
 For example:-
 ```python
-ACM_WEB={"Aditya","Shubham","Rakshit"}
+ACM_WEB=("Aditya","Shubham","Rakshit")
 ACM_WEB[0]="Shivank"
 print(ACM_WEB)
 #This will still print the original tuple
