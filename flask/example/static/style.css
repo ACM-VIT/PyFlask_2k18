@@ -1,0 +1,124 @@
+body{
+
+    margin: 0px;
+    background: lightgreen
+
+}
+
+.nav {
+    
+    border:1px solid royalblue;
+    margin: 0;
+    margin-bottom: 111px;
+    padding: 11px;
+    text-align: center;
+    color: royalblue;
+    background: rgb(147, 218, 241)
+
+}
+
+.form {
+
+    text-align: center;
+
+}
+
+.form input{
+
+    background: white;
+    height: 25px;
+    width: 250px;
+    border: none;
+    padding-left: 2px
+
+}
+
+.form textarea{
+
+    background: white;
+    width: 250px;
+    border: none;
+    padding-left: 2px
+
+}
+
+.form input[type="submit"]{
+
+    width: 200px;
+    color: royalblue;
+    background: rgb(147, 218, 241);
+    border: 1px solid royalblue;
+    padding-left: 0;
+    cursor: pointer
+
+}
+
+.form-label{
+
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 25px;
+
+}
+
+.message-success{
+
+    width: 500px;
+    color: rgb(21, 156, 21);
+    background: rgb(113, 231, 102);
+    text-align: center;
+    padding: 11px;
+    border: 1px solid rgb(21, 156, 21);
+
+}
+
+.message-error{
+
+    width: 500px;
+    color: rgb(214, 29, 29);
+    background: rgb(235, 138, 126);
+    text-align: center;
+    padding: 11px;
+    border: 1px solid rgb(214, 29, 29);
+
+}
+
+.logout{
+
+    background: rgb(177, 31, 31);
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;  
+
+}
+
+.note-title{
+
+    color: royalblue;
+    background: white;
+    border: 1px solid royalblue;
+    height: 25px;
+    padding: 11px;
+    width: 500px;
+    padding-bottom:0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.note-body{
+
+    color: royalblue;
+    background: white;
+    border: 1px solid royalblue;
+    border-top: none;
+    padding: 11px;
+    width: 500px;
+    padding-bottom:0;
+    text-align: center;
+    font-size: 20px;
+
+}

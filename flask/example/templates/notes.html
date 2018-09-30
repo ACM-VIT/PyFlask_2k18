@@ -1,0 +1,26 @@
+{% extends "layout.html"%}
+
+{% block title%} notesManager - Notes {% endblock %}
+
+{% block body %}
+
+    <h1 class="nav">notesManager</h1>
+
+    {% if(message and error == True)%}
+        <center><h2 class="message-error">{{ message }}</h2></center>
+    {% elif(message and error == False) %}
+        <center><h2 class="message-success">{{ message }}</h2></center>
+    {% endif %}
+    
+    <center>
+    {% for k in notes %}
+        <div class="note-title">{{ k }}</div>
+        <div class="note-body">{{ notes[k] }}</div><br>
+    {% endfor %}
+    </center>
+
+    <form class="form" action="/dashboard" method="GET">
+        <input type="submit" value="View Dashboard">
+    </form>
+
+{% endblock %}

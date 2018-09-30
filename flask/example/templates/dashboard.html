@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %} notesManager - Dashboards {% endblock %}
+
+{% block body %}
+
+    <h1 class="nav">notesManager</h1>
+
+    {% if(message and error == True)%}
+        <center><h2 class="message-error">{{ message }}</h2></center>
+    {% elif(message and error == False) %}
+        <center><h2 class="message-success">{{ message }}</h2></center>
+    {% endif %}
+    
+    <h2 class="form-label">Login/SingUp</h2>
+    <form class="form" action="/addnote" method="post">
+        <input type="text" name="title" placeholder="Title"><br><br>
+        <textarea type="password" name="note" placeholder="Note" rows="11"></textarea><br><br>
+        <input type="submit" value="Add Note">
+    </form>
+    <br>
+    <form class="form" action="/getnotes" method="GET">
+        <input type="submit" Value="Get Notes"><br><br>
+    </form>
+    <form class="form" action="/logout" method="GET">
+        <button class="logout">Logout</button>
+    </form>
+
+{% endblock %}

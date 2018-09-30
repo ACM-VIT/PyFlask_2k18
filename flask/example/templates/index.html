@@ -1,0 +1,22 @@
+{% extends "layout.html"%}
+
+{% block title%} notesManager - Home {% endblock %}
+
+{% block body %}
+
+    <h1 class="nav">notesManager</h1>
+
+    {% if(message and error == True)%}
+        <center><h2 class="message-error">{{ message }}</h2></center>
+    {% elif(message and error == False) %}
+        <center><h2 class="message-success">{{ message }}</h2></center>
+    {% endif %}
+    
+    <h2 class="form-label">Login/SingUp</h2>
+    <form class="form" action="/login" method="post">
+        <input type="text" name="username" placeholder="Username"><br><br>
+        <input type="password" name="password" placeholder="Password"><br><br>
+        <input type="submit" value="Login/Signup">
+    </form>
+
+{% endblock %}
