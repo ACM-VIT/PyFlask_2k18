@@ -49,5 +49,3 @@ Motive of this repository is to have a centralized way to access **PyFlask 2k18*
 ## Copyright & License
 
 Copyright (c) 2018 ACM VIT, Registered Under [MIT LICENSE](./LICENSE)
-
-HELLO

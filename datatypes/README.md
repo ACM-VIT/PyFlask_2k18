@@ -33,7 +33,10 @@ There are various data types in Python. Some of the important types are listed b
 
 You can check out more [examples](./examples) here.
 
-For more information on DataTypes:
+**For more information on DataTypes:**
+
 https://www.programiz.com/python-programming/variables-datatypes
+
 https://realpython.com/python-data-types/
+
 https://www.techopedia.com/definition/3349/data-type
