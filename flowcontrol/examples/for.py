@@ -2,14 +2,14 @@ import sys
 # Some Examples of the for loop in python
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  print(x) 
+  print(x)
 	#The for loop does not require an indexing variable to set beforehand.
-  
+
  ### Looping Through a String
 for x in "banana":
   print(x)
 	#Even strings are iterable objects, they contain a sequence of characters
-	
+
  ### _end_ argument is used
 for i in range(4):
  print(i)
@@ -17,15 +17,15 @@ for i in range(4):
  print(i, end=" ")
 for i in range(4):
     print(i, end=" :-) ")
-    
+
  ### The break Statement
- fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  print(x) 
+  print(x)
   if x == "banana":
     break
 	#With the break statement we can stop the loop before it has looped through all the items
-	
+
 ### The continue Statement
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -33,12 +33,12 @@ for x in fruits:
     continue
   print(x)
 	#With the continue statement we can stop the current iteration of the loop, and continue with the next
-	
+
 ### The range() Function
 for x in range(6):
   print(x)
 	#To loop through a set of code a specified number of times, we can use the range() function
-	
+
 ###Else in For Loop
 for x in range(6):
   print(x)
