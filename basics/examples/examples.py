@@ -1,69 +1,62 @@
-### Creating Tuples
-```python
-college=("VIT","DTU","IIT")
-```
+# Creating Tuples
 
-### Another method for creating tuples
-```python
+college=("VIT","DTU","IIT")
+
+# Another method for creating tuples
+
 Laptops=tuple(("Macbook-Air","Macbook-Pro","HP-Pavillion"))
 print(Laptops)
 #This will print the Laptops tuple
-```
 
-### Accessing Tuples
-```python
+
+# Accessing Tuples
 ACM_WEB=("Aditya","Shubham","Rakshit")
 print(ACM_WEB[0])
 #This will print Aditya
-```
-### Immutablity of Tuples
-**Example1**
-```python
+
+# Immutablity of Tuples
+#**Example1**
+
 ACM_WEB={"Aditya","Shubham","Rakshit"}
 ACM_WEB[0]="Shivank"
 print(ACM_WEB)
 #This will still print the original tuple
-```
-**Example2**
-```python
+
+#**Example2**
+
 pokemon=("Pickachu","Charizard","Blastoise")
 pokemon[3]="Mr.Mime"
 #This will raise an error
 print(pokemon)
-```
-### Looping Through a Tuple
-```python
+
+# Looping Through a Tuple
 sports=("Cricket","Football","Basketball")
 for x in sports:
 	print(x)
-```
-### Calculating Tuple Length
-```python
+	
+# Calculating Tuple Length
 pokemon=("Pickachu","Charizard","Blastoise")
 pokemon[3]="Mr.Mime"
 #This will raise an error
 print(pokemon)
-```
-### Deleting Tuple
-```python
+
+# Deleting Tuple
 pokemon=("Pickachu","Charizard","Blastoise")
 del pokemon
 #This will delete the Tuple
-```
-### count() method of tuples
 
-```python
+# count() method of tuples
+
 # vowels tuple
 vowels = ('a', 'e', 'i', 'o', 'i', 'o', 'e', 'i', 'u')
 
 # count element 'i'
 count = vowels.count('i')
 
-```
-The ouput will be :3
+#The ouput will be :3
 
-### index() method of tuples
-```python
+# index() method of tuples
+
 # vowels tuple
 vowels = ('a', 'e', 'i', 'o', 'i', 'u')
 
@@ -78,11 +71,8 @@ index = vowels.index('i')
 
 # only the first index of the element is printed
 print('The index of i:', index)
-```
-*The output for this piece of code will be*:-
 
-The index of e: 1
-The index of i: 2
+
 
 
 
