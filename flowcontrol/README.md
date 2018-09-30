@@ -18,7 +18,11 @@ It takes an expression in parenthesis and an statement or block of statements. i
 
   For loop is similar to while, it's just written differently.Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
 
+<<<<<<< d7b076fc1d969911a8ba2f66e81b16d397885526
 *  [EXCEPTION HANDLING Try Except](./tryExcept.md)
+=======
+*  [EXCEPTION HHANDLING Try Except](./tryExcept.md)
+>>>>>>> Update flowcontrol/README
 
   The **try** block lets you test a block of code for errors.
   The **except** block lets you handle the error.
