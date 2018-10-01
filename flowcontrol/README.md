@@ -36,3 +36,7 @@ It takes an expression in parenthesis and an statement or block of statements. i
 https://www.tutorialspoint.com/python/python_loops.htm
 
 https://www.w3schools.com/python/python_try_except.asp
+
+https://www.tutorialspoint.com/python/python_while_loop.htm
+
+https://www.programiz.com/python-programming/while-loop
