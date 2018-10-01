@@ -131,23 +131,6 @@ NameError: name 'variable' is not defined
 ```
 _**NOTE** : Technically, parameters are the variables in a function definition, and arguments are the values put into parameters when functions are called._
 
-* You can also define functions with more than one argument; separate them with commas.<br/>
-#### CODE
-```
-def print_sum_twice(x, y):
-   print(x + y)
-   print(x + y)
-
-print_sum_twice(5, 8)
-```
-#### OUTPUT
-```
->>>
-13
-13
->>>
-```
-
 ## Functions as Objects
 * Although they are created differently from normal variables, functions are just like any other kind of value. 
 * They can be assigned and reassigned to variables, and later referenced by those names.<br/>
