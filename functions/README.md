@@ -190,3 +190,8 @@ print(do_twice(add, a, b))
 ```
 
 _**HINT** : As you can see, the function do_twice takes a function as its argument and calls it in its body._
+
+## Links and References
+https://www.w3schools.com/python/python_functions.asp <br/>
+https://www.tutorialspoint.com/python/python_functions.htm <br/>
+https://www.programiz.com/python-programming/function
