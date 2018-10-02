@@ -18,7 +18,7 @@ _**FACT** : Bad, repetitive code is said to abide by the WET principle, which st
 * A function can return data as a result.
 * Any statement that consists of a word followed by information in parentheses is a function call.<br/>
 Here are some examples that you've already seen:
-```
+```python
 print("Hello world!")
 range(2, 20)
 str(12)
@@ -33,7 +33,7 @@ _**NOTE** : The words in front of the parentheses are function names, and the co
 It takes no arguments, and prints "spam" three times. It is defined, and then called.<br/>
 The statements in the function are executed only when the function is called.<br/>
 #### CODE
-```
+```python
 def my_func():
    print("spam")
    print("spam")
@@ -54,7 +54,7 @@ _**NOTE** : The code block within every function starts with a colon (:) and is 
 
 * You must define functions before they are called, in the same way that you must assign variables before using them.<br/>
 #### CODE
-```
+```python
 hello()
 
 def hello():
@@ -75,7 +75,7 @@ NameError: name 'hello' is not defined
 * The argument is defined inside the parentheses.<br/>
 * The example below defines a function that takes one argument:<br/>
 #### CODE
-```
+```python
 def print_with_exclamation(word):
    print(word + "!")
     
@@ -95,7 +95,7 @@ python!
 
 * You can also define functions with more than one argument; separate them with commas.<br/>
 #### CODE
-```
+```python
 def print_sum_twice(x, y):
    print(x + y)
    print(x + y)
@@ -113,7 +113,7 @@ print_sum_twice(5, 8)
 * However, they cannot be referenced outside of the function's definition. 
 * This also applies to other variables created inside a function.<br/>
 #### CODE
-```
+```python
 def function(variable):
    variable += 1
    print(variable)
@@ -135,7 +135,7 @@ _**NOTE** : Technically, parameters are the variables in a function definition, 
 * Although they are created differently from normal variables, functions are just like any other kind of value. 
 * They can be assigned and reassigned to variables, and later referenced by those names.<br/>
 #### CODE
-```
+```python
 def multiply(x, y):
    return x * y
 
@@ -153,7 +153,7 @@ print(operation(a, b))
 
 * Functions can also be used as arguments of other functions.<br/>
 #### CODE
-```
+```python
 def add(x, y):
   return x + y
 
