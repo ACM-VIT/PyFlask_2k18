@@ -23,17 +23,17 @@ B = {4, 5, 6, 7, 8}
  # union of sets
 # Output: {1, 2, 3, 4, 5, 6, 7, 8}
 print(A | B)
- A.union(B)
+A.union(B)
 # Output: {1, 2, 3, 4, 5, 6, 7, 8}
  # intersection of sets
 # Output: {4, 5}
 print(A & B)
- A.intersection(B)
+A.intersection(B)
 #Output: {4, 5}
  # difference of sets
 # Output: {1, 2, 3}
 print(A - B)
- A.difference(B)
+A.difference(B)
 # Output: {1, 2, 3}
  # initialize A and B frozen sets
 A = frozenset([1, 2, 3, 4])

@@ -93,6 +93,8 @@ print(math.factorial(6))
 
 ##Full list of functions available in python 
 
+import random
+
 # Output: 16
 print(random.randrange(10,20))
 
