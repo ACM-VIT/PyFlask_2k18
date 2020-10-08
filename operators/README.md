@@ -25,7 +25,7 @@ Arithmetic operators are used with numeric values to perform common mathematical
 | / | Division | x / y |
 | % | Modulus | x % y |
 | \*\* | Exponentiation | x \*\* y |
-| // | Division | x // y |
+| // | floor Division | x // y |
 
 
 ## Python Assignment Operators
@@ -113,3 +113,4 @@ You can check out more [examples](./examples) here.
 - https://www.w3schools.com/python/python_operators.asp
 - https://realpython.com/python-operators-expressions/
 - https://www.youtube.com/watch?v=v5MR5JnKcZI
+-https://www.programiz.com/python-programming/operators
